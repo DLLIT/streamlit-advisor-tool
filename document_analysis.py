@@ -129,7 +129,7 @@ def main():
     uploaded_file = None
     if input_method == "Upload an Image File":
         # Simplified file uploader to focus on images.
-        uploaded_file = st.file_uploader("Choose an image file", type=["jpg", "jpeg", "png"])
+        uploaded_file = st.file_uploader("Choose an image file", type=["pdf,jpg", "jpeg", "png"])
     else:
         uploaded_file = st.camera_input("Take a picture of the lease page")
 
