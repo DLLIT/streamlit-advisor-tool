@@ -32,6 +32,8 @@ def analyze_document(file_bytes, mime_type, filename="uploaded_document"):
         Respond with:
         1. The type of document (administrative or criminal).
         2. A short, clear explanation (in simple, non-legal language).
+
+        You can use markdown in your reply.
         """
     )
 
